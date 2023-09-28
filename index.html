@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Capacitaciones</title>
+    <link rel="stylesheet" href="./recursos/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./recursos/css/style.css">
+</head>
+
+<body class="container p-4 b my-5 s">
+
+    <div class="jumbotron py-5 b ">
+        <h1 class="display-4 b" style="font-weight: 600">SISTEMA DE CAPACITACIONES</h1>
+        <p class="lead b">Bienvenido, encontrarás los mejores programas para tu crecimiento profesional</p>
+        <hr class="my-4 b">
+
+
+    </div>
+    <br>
+    <div class="row b" style="display: flex; justify-content: space-evenly;">
+        <div class="col b ">
+            <div class="card p-4 b">
+                <form class="b">
+                    <div class="row mb-3 b">
+                        <label for="ID_Usuario" class="col-sm-2 col-form-label b">Usuario</label>
+                        <div class="col-sm-10 b">
+                            <input type="text" class="form-control b" id="ID_Usuario">
+                        </div>
+                    </div>
+                    <div class="row mb-3 b">
+                        <label for="ID_Contrasenia" class="col-sm-2 col-form-label b">Contraseña</label>
+                        <div class="col-sm-10 b">
+                            <input type="password" class="form-control b" id="ID_Contrasenia">
+                        </div>
+                    </div>
+                </form>
+                <div id="ID_MsjError" style="display: none;">
+                    <small style="color: red;"> <strong>Usuario o contraseña incorrectos</strong></small>
+                    <br><br>
+                </div>
+                <button class="btn btn-sm btn-primary finit">Iniciar</button>
+            </div>
+
+        </div>
+        <div class="col mb-4 b" style="align-self: end">
+            <div class="card text-bg-dark">
+                <img src="https://larepublica.cronosmedia.glr.pe/original/2022/07/06/62c60a94e0652b3a7d708381.jpg"
+                    class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    <br>
+                    <br>
+                    <a class="btn btn-sm btn-info" href="#">Explorar Programas</a>
+                </div>
+            </div>
+
+        </div>
+        <a href="modulos/programas/registro.html">Registrarse</a>
+    </div>
+
+
+
+    <script src="./recursos/bootstrap/bootstrap.min.js"></script>
+    <script src="./recursos/bootstrap/popper.min.js"></script>
+    <script src="./recursos/js/jquery-3.7.1.min.js"></script>
+    <script src="./recursos/js/login/login.js"></script>
+</body>
+
+</html>
