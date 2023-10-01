@@ -104,7 +104,7 @@ const programas = [
         Fecha_Fin: '2024-04-20',
     },
     {
-        MtM: ["rodolfo"],
+        MtM: ["rodolfo", "wilson"],
         Cod_Programa: 'P011',
         Nombre_Programa: 'Programa de Desarrollo de Aplicaciones Móviles',
         Nro_Cursos: 6,
@@ -176,7 +176,7 @@ const programas = [
         Fecha_Fin: '2025-01-15',
     },
     {
-        MtM: ["david"],
+        MtM: ["david", "wilson"],
         Cod_Programa: 'P020',
         Nombre_Programa: 'Programa de Seguridad en la Web',
         Nro_Cursos: 7,
@@ -208,7 +208,7 @@ const programas = [
         Fecha_Fin: '2025-05-15',
     },
     {
-        MtM: ["rodolfo"],
+        MtM: ["rodolfo", "wilson"],
         Cod_Programa: 'P024',
         Nombre_Programa: 'Programa de Desarrollo de Software',
         Nro_Cursos: 6,
